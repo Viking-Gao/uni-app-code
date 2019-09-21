@@ -1,0 +1,1 @@
+<view class="container-zuan-item data-v-bbedfd0a" style="{{'left:'+(left+'rpx')+';'+('top:'+(top+'rpx')+';')}}" animation="{{animationData}}" data-event-opts="{{[['tap',[['addZuanNumber',['$event']]]]]}}" bindtap="__e"><image src="../static/images/icon_xz.png" class="data-v-bbedfd0a"></image><text class="data-v-bbedfd0a">{{diamond}}</text></view>

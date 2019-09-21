@@ -1,0 +1,65 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		}, {
+			"path": "pages/task/task",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor":"#011046",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "面试作业项目",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#011446",
+		"color": "#969696",
+		"selectedColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/yemian-copy-copy-copy-2.png",
+				"selectedIconPath": "static/images/yemian-copy-copy-copy.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/images/faxian--2.png",
+				"selectedIconPath": "static/images/faxian-.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"iconPath": "static/images/renwu-2.png",
+				"selectedIconPath": "static/images/renwu.png",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/images/wode-5.png",
+				"selectedIconPath": "static/images/wode-4.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

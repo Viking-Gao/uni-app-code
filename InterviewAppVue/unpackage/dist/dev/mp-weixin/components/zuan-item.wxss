@@ -1,0 +1,39 @@
+
+.container-zuan-item.data-v-bbedfd0a{
+	position: absolute;
+	width: auto;
+	height: auto;
+	padding: 10rpx 8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.container-zuan-item image.data-v-bbedfd0a{
+	width: 38rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	padding: 16rpx;
+	-webkit-box-shadow:  0rpx 0rpx 15rpx #007AFF;
+	        box-shadow:  0rpx 0rpx 15rpx #007AFF;
+}
+.container-zuan-item text.data-v-bbedfd0a{
+	width: auto;
+	height: auto;
+	font-size: 23rpx;
+	color: #FFFFFF;
+}
+
